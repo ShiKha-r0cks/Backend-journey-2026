@@ -93,7 +93,8 @@ for i in range(1,row1+1):
         print(" ",end="")
     for k in range(2*(row1-i)+1):
         print("*",end="")
-    print()    
+    print() 
+       
 
 
 
