@@ -41,3 +41,11 @@ for i in range(len(numbers)-1, -1, -1):
     reversed_list.append(numbers[i])
 
 print(reversed_list)
+# removing duplicate from the list 
+numbers =[1,2,2,3,4,5,6,7,7]
+unique=[]
+
+for num in numbers:
+     if num not in unique:
+          unique.append(num)
+print(unique)
